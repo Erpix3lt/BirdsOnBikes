@@ -1,4 +1,11 @@
 html {
     background-color: darkslategrey;
     color: goldenrod;
+    width: 90%;     /* specify a width! */
+  margin: 0 auto;
+}
+
+img {
+    width: 100%;
+  height: auto;
 }
