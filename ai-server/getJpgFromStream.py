@@ -11,7 +11,7 @@ while True:
   elif counter < 100:
     imageFileName = './capturedImages/image-000' + str(counter) + '.jpg'
   elif counter < 1000:
-    imageFileName = './capturedImages/iamge-00' + str(counter) + '.jpg'
+    imageFileName = './capturedImages/image-00' + str(counter) + '.jpg'
   elif counter < 10000:
     imageFileName = './capturedImages/image-0' + str(counter) + '.jpg'
   else:
