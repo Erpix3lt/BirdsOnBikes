@@ -1,16 +1,21 @@
 import cv2
-from datetime import datetime
-import time
+from time import sleep
 
 streamURL = 'https://stream.birdsh.it/stream/video.mjpeg'
 cap = cv2.VideoCapture(streamURL)
-
+counter = 0
 while True:
-  
+  counter = counter + 1
+  if counter < 10:
+    imageFileName = './capturedImages/image-0000' + str(counter) + '.jpg'
+  elif counter < 100:
+    imageFileName = './capturedImages/image-000' + str(counter) + '.jpg'
+  elif counter < 1000:
+    imageFileName = './capturedImages/iamge-00' + str(counter) + '.jpg'
+  elif counter < 10000:
+    imageFileName = './capturedImages/image-0' + str(counter) + '.jpg'
+  else:
+    imageFileName = './capturedImages/image-' + str(counter) + '.jpg'
   ret, frame = cap.read()
-  dateTimeObj = datetime.now
-  imageFileName = time.strftime('./capturedImages/%Y-%m-%d-%H:%M:%S.jpg')
   cv2.imwrite(imageFileName, frame)
-  if cv2.waitKey(1) == 27:
-    exit(0)
-  time.sleep(1)
+  sleep(1)
