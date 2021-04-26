@@ -1,2 +1,4 @@
 /ai-server/capturedImages/*
 /client-page/movies
+/ai-server/TensorFlowTest/images
+/ai-server/TensorFlowTest/models
