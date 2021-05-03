@@ -28,9 +28,9 @@ def countdown(seconds):
 def takePictures():
     print('motion registered, taking pictures')
     for pictures in range(numberOfPicturesToTake):
-        timestamp = datetime.now().timestamp()
-        camera.capture(str(timestamp) + '.jpg')
-        sleep(secondsBetweenPictures)
+        filename = './capturedImages/' + str(datetime.now().timestamp()) + '.jpg'
+        camera.capture(filename)
+        # sleep(secondsBetweenPictures) # the raspberry zero needs ~0.5 seconds to take and save a picture
     print('pictures taken, waiting for motion')
 
 
