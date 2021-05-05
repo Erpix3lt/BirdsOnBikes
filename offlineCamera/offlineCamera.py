@@ -18,7 +18,7 @@ numberOfPicturesToTake = 30
 secondsBetweenPictures = .5
 timesPicturesWereTaken = 0
 print('setting up motion sensor')
-pir = MotionSensor(23)
+pir = MotionSensor(23, queue_len=20)
 
 
 def countdown(seconds):
