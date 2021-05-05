@@ -3,7 +3,6 @@ import os
 from gpiozero import MotionSensor
 from signal import pause
 from time import sleep
-from datetime import datetime
 
 print('setting up camera')
 camera = picamera.PiCamera()
