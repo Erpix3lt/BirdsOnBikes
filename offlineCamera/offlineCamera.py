@@ -19,13 +19,6 @@ timesPicturesWereTaken = 0
 print('setting up motion sensor')
 pir = MotionSensor(23, queue_len=20)
 
-
-def countdown(seconds):
-    for second in range(seconds):
-        print(str(seconds - seconds) + ' seconds to go')
-        sleep(1)
-
-
 def takePictures():
     global timesPicturesWereTaken
     timesPicturesWereTaken += 1
@@ -39,8 +32,6 @@ def takePictures():
         camera.capture(filename)
         # sleep(secondsBetweenPictures) # the raspberry zero needs ~0.5 seconds to take and save a picture
     print('pictures taken, waiting for motion')
-
-
 
 pir.when_motion = takePictures
 pause()
