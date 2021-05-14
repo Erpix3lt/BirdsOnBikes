@@ -1,6 +1,0 @@
-name: tensorflow
-channels:
-  - defaults
-dependencies:
-  - python=3.8
-prefix: /home/christian/Anwendungen/miniconda3/envs/tensorflow
