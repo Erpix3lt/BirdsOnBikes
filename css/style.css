@@ -57,7 +57,7 @@
 
 #header-space {
     margin: 10em 0 15em 0;
-    width: 75%;
+    width: 70%;
 }
 
 #header-content {
@@ -79,7 +79,6 @@
 
 #header-info {
     font-size: 4em;
-    padding-right: 0.75em;
     color: #4D4D4D;
 }
 
@@ -132,10 +131,21 @@
 
 #about-info-phrase{
     padding-top: 0.5em;
+    padding-bottom: 0.5em;
     font-size: 3em;
     font-weight: 600;
    
     color: #4D4D4D;
+}
+
+#about-info-instructions{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 3em;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    color: #A0D1A5;
 }
 
 iframe{
@@ -164,6 +174,6 @@ iframe{
     flex-direction: row;
 }
 
-#BirdsOnBike{
+#BirdsOnBikes{
     padding-right: 1em;
 }
