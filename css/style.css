@@ -101,29 +101,69 @@
     color: #4D4D4D;
 }
 
-#content {
+#about{
+    display: flex;
     margin: 0 auto;
     width: 100%;
     height: auto;
-    background-color: gainsboro;
     justify-content: center;
+    background-color: #F8F8F8;
 }
 
-#content-space {
-    margin: 0 auto;
+#about-space{
+    padding-top: 5em;
+    padding-bottom: 3em;
+    width: 75%;
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    width: 800px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-#content-space img {
-    margin: 1em 0 1em 0;
-    border-radius: 20px;
+#about-info-wrapper{
+    padding-right: 1.5em;
+}
+
+#about-info-text{
+    font-size: 2em;
+    
+    color: #4D4D4D;
+}
+
+#about-info-phrase{
+    padding-top: 0.5em;
+    font-size: 3em;
+    font-weight: 600;
+   
+    color: #4D4D4D;
+}
+
+iframe{
+    border-radius: 10px;
 }
 
 .nav-item {
     padding: 1em;
 }
 
+#footer{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#footer-tag-wrapper{
+    padding-left: 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+#BirdsOnBike{
+    padding-right: 1em;
+}
