@@ -28,13 +28,15 @@ nohup python3 getJpgFromStream.py >output.log >error.log &
 * sudo shutdown now
 * WLAN-Konfigurieren:
     * Speicherkarte in deinen Rechner einlegen
-    * auf "boot" eine Datei mit dem Namen ```wpa_supplicant.conf````anlegen
+    * auf "boot" eine Datei mit dem Namen ``wpa_supplicant.conf``anlegen
     * Datei im Editor öffnen und folgenden Code eingeben:
-    * ```ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-        ountry=<Insert 2 letter ISO 3166-1 country code here>
-        update_config=1
-        network={
-            ssid="<Name of your wireless LAN>"
-            psk="<Password for your wireless LAN>"
-        }``
+
+```bash ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+country=de
+update_config=1
+network={
+    ssid="<Name of your wireless LAN>"
+    psk="<Password for your wireless LAN>"
+}
+```
 
