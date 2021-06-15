@@ -40,3 +40,5 @@ network={
 }
 ```
 
+[Quelle](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
+
