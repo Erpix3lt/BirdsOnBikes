@@ -15,3 +15,26 @@ mit folgendem Befehl kann das Script gestartet werden und wird auch nachdem sich
 ``` bash
 nohup python3 getJpgFromStream.py >output.log >error.log &
 ```
+
+## Installation
+
+* Raspberry Pi OS Lite auf SD-Karte geflasht
+* per SSH auf Raspberry zugreifen
+* sudo apt update 
+* sudo apt full-upgrade
+* sudo apt install git python-picamera python3-picamera
+* Kamera in raspi-config aktivieren
+* git clone https://git.coco.study/mschmal2/birdsonbikes.git
+* sudo shutdown now
+* WLAN-Konfigurieren:
+    * Speicherkarte in deinen Rechner einlegen
+    * auf "boot" eine Datei mit dem Namen ```wpa_supplicant.conf````anlegen
+    * Datei im Editor öffnen und folgenden Code eingeben:
+    * ```ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+        ountry=<Insert 2 letter ISO 3166-1 country code here>
+        update_config=1
+        network={
+            ssid="<Name of your wireless LAN>"
+            psk="<Password for your wireless LAN>"
+        }``
+
