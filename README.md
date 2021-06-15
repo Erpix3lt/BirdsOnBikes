@@ -42,3 +42,5 @@ network={
 
 [Quelle](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
 
+ssh pi@campi2 oder 3
+pw: birdie
