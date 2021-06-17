@@ -49,20 +49,24 @@ pw: birdie
 
 ## Die Komponenten
 
-* RaspberryPi 3
+### RaspberryPi 3
 <img src="assets-README/Raspi.png">
-* Raspberry Kamera V.2
+
+### Raspberry Kamera V.2
 <img src="assets-README/Kamera.png">
-* PIR Sensor (Bewegungssensor)
+
+### PIR Sensor (Bewegungssensor)
 <img src="assets-README/PIRSensor.png">
-* 3x Kabel Weiblich/ Weiblich
+
+### 3x Kabel Weiblich/ Weiblich
 <img src="assets-README/Kabel.png">
 
 ## Zusammenbauen der Komponenten
 
     1. Den Gehäusedecke des Raspberry Pi´s abnehmen. 
 
-    2. Das Kabel des Kamermoduls in den Beschrifteten Kamera Eingang stecken. (Hier auf die Richtung der Kontakte achten)
+    2. Das Kabel des Kamermoduls in den Beschrifteten Kamera Eingang stecken.
+    (Hier auf die Richtung der Kontakte achten)
 
     3. Drei Kabel an die Pins (GND, VCC, SIG) des PIR Sensors anschließen. 
 
