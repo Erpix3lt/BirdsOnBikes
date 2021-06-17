@@ -112,6 +112,8 @@ ssh <name des raspberry pi´s> eingeben
     (pi@campi1) oder (pi@campi3)
     Das Passwort ist (birdie)
 
+    Wenn alles richtig gelaufen ist sollte man jetzt mit SSH auf dem Raspberry Pi sein. 
+
 
 
 
