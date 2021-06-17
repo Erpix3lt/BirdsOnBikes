@@ -36,6 +36,13 @@
     align-items: center;
 }
 
+@media only screen and (max-width: 500px){
+    #nav{
+        display: none;
+    }
+}
+
+
 #nav-button {
     font-weight: 600;
     padding: 1em;
@@ -57,24 +64,28 @@
 
 #header-space {
     margin: 10em 0 15em 0;
-    width: 70%;
+    width: 85%;
 }
 
 #header-content {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 900px){
     #header-content{
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #header-content-wrapper{
+        padding-left: 0em;
+        padding-top: 2em;
     }
 }
 
 #header-content-wrapper{
-    padding-left: 2em;
 }
 
 #header-links {
@@ -146,21 +157,22 @@
 #about-space{
     padding-top: 5em;
     padding-bottom: 3em;
-    width: 75%;
+    width: 85%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 900px){
     #about-space{
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 
 #about-info-wrapper{
-    padding-right: 1.5em;
+    
 }
 
 #about-info-text{
@@ -214,19 +226,6 @@
     }
 }
 
-@media only screen and (max-width: 500px){
-    #about-info-text{
-        font-size: 0.5;
-    }
-
-    #about-info-phrase{
-        font-size: .75em;
-    }
-    #about-info-instructions{
-        font-size: .75em;
-    }
-}
-
 iframe{
     border-radius: 10px;
 }
@@ -262,4 +261,21 @@ iframe{
 
 #BirdsOnBikes{
     padding-right: 1em;
+}
+
+.left{
+    width: 43%;
+}
+
+.right{
+    width: 53%;
+}
+
+@media only screen and (max-width: 900px){
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }  
 }
