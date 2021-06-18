@@ -50,16 +50,16 @@ pw: birdie
 ## Die Komponenten
 
 ### RaspberryPi 3
-<img src="assets-README/Raspi.png">
+<img src="assets-README/Raspi.png" width="200">
 
 ### Raspberry Kamera V.2
-<img src="assets-README/Kamera.png">
+<img src="assets-README/Kamera.png" width="200">
 
 ### PIR Sensor (Bewegungssensor)
-<img src="assets-README/PIRSensor.png">
+<img src="assets-README/PIRSensor.png" width="200">
 
 ### 3x Kabel Weiblich/ Weiblich
-<img src="assets-README/Kabel.png">
+<img src="assets-README/Kabel.png" width="200">
 
 ## Zusammenbauen der Komponenten
 
@@ -79,7 +79,7 @@ pw: birdie
 
     1. Den Raspberry Pi ausschalten (Stromkabel entfernen)
 
-    2. Die SD auf der Rückseite herausnehmen und in deinen Rechner einlegen
+    2. Die SD Karte auf der Rückseite herausnehmen und in deinen Rechner einlegen
 
     3. Einen beliebigen Text Editor öffen (NotdePad, VS Code)
 
