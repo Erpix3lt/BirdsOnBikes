@@ -1,0 +1,19 @@
+{
+  "name": "birdsonbikes",
+  "version": "1.0.0",
+  "description": "Client Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.coco.study:mschmal2/birdsonbikes.git"
+  },
+  "author": "Felix Willen, Christian Busse, Maximilian Schmalenbach",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "showdown": "^1.9.1"
+  }
+}
